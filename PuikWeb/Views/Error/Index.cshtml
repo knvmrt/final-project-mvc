@@ -1,0 +1,11 @@
+@{
+    Layout = "~/Views/Shared/_ErrorLayout.cshtml";
+    ViewBag.Title = "Error";
+}
+
+<h2>An error occurred.</h2>
+<p>Status Code: @ViewBag.StatusCode</p>
+<p>Message: @ViewBag.ErrorMessage</p>
+<pre>@ViewBag.StackTrace</pre>
+<p>Please try again.</p>
+<a href="@Url.Action("Index", "Home")">Home</a>

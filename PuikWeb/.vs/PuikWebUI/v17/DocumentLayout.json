@@ -1,0 +1,553 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\views\\home\\showwishlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:views\\home\\showwishlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\viewmodels\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\viewmodels\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\viewmodels\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\viewmodels\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\migrations\\20240625094034_editdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:migrations\\20240625094034_editdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\dtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\dtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\wwwroot\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:wwwroot\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\appsettings.prod.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:appsettings.prod.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\models\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:models\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|c:\\users\\knvmr\\desktop\\puikwebapp1\\puikweb\\migrations\\20240725144013_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709636B-2583-4437-BCD1-C39D71EC1AC2}|WebUI.csproj|solutionrelative:migrations\\20240725144013_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "Areas\\Admin\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:30:24.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T12:23:42.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvxoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T12:23:06.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T12:23:00.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:22:43.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:23:16.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240625094034_editdb.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Migrations\\20240625094034_editdb.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240625094034_editdb.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Migrations\\20240625094034_editdb.cs",
+              "RelativeToolTip": "Migrations\\20240625094034_editdb.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:33:18.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T18:08:23.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAOgAAAAAAAAAAAAYwCMBAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T10:42:52.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowWishlist.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Views\\Home\\ShowWishlist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ShowWishlist.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Views\\Home\\ShowWishlist.cshtml",
+              "RelativeToolTip": "Views\\Home\\ShowWishlist.cshtml",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAH8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T10:51:56.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\DTOs\\UpdateCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\DTOs\\UpdateCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\DTOs\\UpdateCategoryDTO.cs",
+              "RelativeToolTip": "Areas\\Admin\\DTOs\\UpdateCategoryDTO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:32:01.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240725144013_Test.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Migrations\\20240725144013_Test.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240725144013_Test.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Migrations\\20240725144013_Test.cs",
+              "RelativeToolTip": "Migrations\\20240725144013_Test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:40:13.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\ViewModels\\CreateProductVM.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewModels\\CreateProductVM.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\ViewModels\\CreateProductVM.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewModels\\CreateProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:47:13.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\ViewModels\\UpdateProductVM.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewModels\\UpdateProductVM.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\ViewModels\\UpdateProductVM.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewModels\\UpdateProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:38:56.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAABBwCgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T12:10:26.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T10:05:10.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T12:06:36.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwCAAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T12:06:19.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\wwwroot\\assets\\css\\main.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\main.css",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\wwwroot\\assets\\css\\main.css",
+              "RelativeToolTip": "wwwroot\\assets\\css\\main.css",
+              "ViewState": "AQIAAI4fAAAAAAAAAIAwwKofAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-25T11:06:24.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAuwLIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:38:40.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "Controllers\\ErrorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:21:16.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T10:18:41.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T10:05:38.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.Prod.json",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\appsettings.Prod.json",
+              "RelativeDocumentMoniker": "appsettings.Prod.json",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\appsettings.Prod.json",
+              "RelativeToolTip": "appsettings.Prod.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T10:05:36.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwBEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T10:05:25.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:43:40.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:10:47.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BasketItem.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\BasketItem.cs",
+              "RelativeDocumentMoniker": "Models\\BasketItem.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\BasketItem.cs",
+              "RelativeToolTip": "Models\\BasketItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:08:33.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:57:14.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WishListItem.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\WishListItem.cs",
+              "RelativeDocumentMoniker": "Models\\WishListItem.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\WishListItem.cs",
+              "RelativeToolTip": "Models\\WishListItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:55:57.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:55:19.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwEQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:48:31.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\knvmr\\Desktop\\PuikWebApp1\\PuikWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAiwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:46:54.628Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

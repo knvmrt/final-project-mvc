@@ -1,0 +1,350 @@
+﻿@model IEnumerable<WebUI.Models.Product>
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+@inject UserManager<WebUI.Models.AppUser> UserManager
+
+@{
+    ViewData["Title"] = "Products";
+    var user = await UserManager.Users
+                .Include(u => u.BasketItems)
+                .ThenInclude(b => b.Product)
+                .Include(u => u.Wishlist)
+                                .ThenInclude(w => w.Product)
+                                .FirstOrDefaultAsync(u => u.Id == UserManager.GetUserId(User));
+    var wishlist = user?.Wishlist?.Select(p => p.Product) ?? new List<WebUI.Models.Product>();
+
+    var categoryOptions = new System.Text.StringBuilder();
+    categoryOptions.Append("<option value=\"\">All</option>");
+    foreach (var category in ViewBag.Categories)
+    {
+        var selected = category.CategoryName == ViewBag.SelectedCategory ? "selected" : "";
+        categoryOptions.Append($"<option value=\"{category.CategoryName}\" {selected}>{category.CategoryName}</option>");
+    }
+}
+
+
+
+<div class="top-selling-area pb-100 pt-95 gray-bg-4">
+    <div class="filter-area col-2">
+        <form method="get" asp-action="Index" asp-controller="Home">
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category" name="category" class="form-control">
+                    @Html.Raw(categoryOptions.ToString())
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="minPrice">Min Price</label>
+                <input type="number" id="minPrice" name="minPrice" class="form-control" value="@ViewBag.MinPrice" />
+            </div>
+            <div class="form-group">
+                <label for="maxPrice">Max Price</label>
+                <input type="number" id="maxPrice" name="maxPrice" class="form-control" value="@ViewBag.MaxPrice" />
+            </div>
+            <button type="submit" class="btn btn-primary">Filter</button>
+        </form>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="section-title top-selling-title text-center pb-47">
+                    <span class="p-subtitle p-subtitle-2">Explore The Lookbook</span>
+                    <h3 class="p-title pb-15 mb-0">Top Selling Products</h3>
+                    <p class="p-desc">Commodo sociosqu venenatis cras dolor sagittis integer luctus sem primis eget maecenas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-product-6-wrapper">
+            <div class="row pb-20 gx-0">
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        var isInWishlist = wishlist.Any(p => p.Id == item.Id);
+                        var heartClass = isInWishlist ? "icon-box icon-box-1 red-heart" : "icon-box icon-box-1";
+
+                        <div class="col-md-3" style="">
+                            <div class="single-product single-product-6 wow fadeInUp" data-wow-delay=".1s">
+                                <div class="product-thumb">
+                                    <img src="~/Upload/ProductImages/@item.ImgUrl" alt="#" style="width:100%;height:350px;">
+                                    <div class="cart-btn cart-btn-1 p-abs">
+                                        <a href="#" class="view-details" data-bs-toggle="modal"
+                                           data-bs-target="#productModal" data-product-id="@item.Id">Add to cart</a>
+                                    </div>
+                                    <div class="product-action product-action-1 p-abs">
+                                        <a href="#" class="icon-box icon-box-1 view-details" data-bs-toggle="modal"
+                                           data-bs-target="#productModal" data-product-id="@item.Id">
+                                            <i class="fal fa-eye"></i>
+                                            <i class="fal fa-eye"></i>
+                                        </a>
+                                        <form id="wishlistForm" asp-action="addWishList" asp-controller="Home" method="post">
+                                            <input style="transition:none;" type="hidden" name="id" value="@item.Id" />
+                                            <button type="submit" class="@heartClass">
+                                                <span class="fa fa-heart"></span>
+                                            </button>
+                                        </form>
+                                        <a href="#" class="icon-box icon-box-1">
+                                            <i class="fal fa-layer-group"></i>
+                                            <i class="fal fa-layer-group"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4 class="pro-title pro-title-1">
+                                        <a href="product-details.html">@item.Name</a>
+                                    </h4>
+                                    <div class="pro-price">
+                                        <span>£@item.Price</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>No products available.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pagination-area pb-2">
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage - 1)">Previous</a>
+            </li>
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+                </li>
+            }
+            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage + 1)">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!-- product modal area start -->
+<div class="product__modal-area modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModal"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="product__modal-inner position-relative">
+                <div class="product__modal-buttons position-absolute" style="top: 10px; right: 10px;">
+                    <button class="product__modal-close" data-bs-dismiss="modal" aria-label="Close"
+                            style="border: none; background: none;">
+                        <i class="ti-close" style="font-size: 24px;"></i>
+                    </button>
+                    <button class="product__modal-wishlist" style="border: none; background: none; margin-top: 10px;">
+                        <i class="fal fa-heart" style="font-size: 24px;"></i>
+                    </button>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="product__modal-thumb w-img">
+                            <img id="productModalImg" src="" alt="Product Image">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product__modal-content">
+                            <h3 class="product__modal-title" id="productModalTitle">
+                                <a href="#">Product Name</a>
+                            </h3>
+                            <div class="product__modal-price mb-10">
+                                <span class="price new-price" id="productModalPrice">£0.00</span>
+                            </div>
+                            <div class="product__modal-category mb-10">
+                                <span class="category" id="productModalCategory">Category</span>
+                            </div>
+                            <div class="product__modal-availability mb-10">
+                                <span id="productModalAvailability"></span>
+                            </div>
+                            <div class="product__modal-quantity mb-15">
+                                <h5>Quantity:</h5>
+                                <div class="pro-quan-area d-flex align-items-center">
+                                    <div class="product-quantity mr-20 mb-25">
+                                        <div class="cart-plus-minus p-relative">
+                                            <input type="number" id="productModalQuantity" value="1" />
+                                        </div>
+                                    </div>
+                                    <div class="product__modal-cart mb-25">
+                                        <button class="product__modal-cart-btn" type="submit" id="addToCartBtn">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Other modal content can be added here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- product modal area end -->
+<!-- JavaScript Kodunu Buraya Ekleyin -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.view-details').on('click', function () {
+            var productId = $(this).data('product-id');
+
+            // Ajax call to get product details
+            $.ajax({
+                url: '@Url.Action("GetProductDetails", "Product", new { area = "Admin" })',
+                type: 'GET',
+                data: { id: productId },
+                success: function (product) {
+                    // Update modal content
+                    $('#productModalTitle a').text(product.name);
+                    $('#productModalImg').attr('src', '/Upload/ProductImages/' + product.imgUrl);
+                    $('#productModalPrice').text('£' + product.price);
+                    $('#productModalCategory').text(product.category);
+                    $('#productModalDescription').text(product.description);
+
+                    if (!product.IsDeleted) {
+                        $('#productModalAvailability').text('Available').css('color', 'green');
+                    } else {
+                        $('#productModalAvailability').text('Not Available').css('color', 'red');
+                    }
+
+                    // Store product ID in the "Add to Cart" button
+                    $('#addToCartBtn').data('product-id', productId);
+                }
+            });
+        });
+
+        $('#addToCartBtn').on('click', function () {
+            var productId = $(this).data('product-id');
+            var quantity = $('#productModalQuantity').val();
+
+            $.ajax({
+                url: '@Url.Action("AddToCart", "Home")',
+                type: 'POST',
+                data: { productId: productId, count: quantity },
+                success: function (response) {
+                    alert('Product added to cart successfully!');
+                    window.location.reload();
+                    // Optionally, update the cart count or perform other actions here
+                },
+                error: function (xhr, status, error) {
+                    alert('An error occurred while adding the product to the cart.');
+                }
+            });
+
+        });
+    });
+</script>
+
+
+<!-- JavaScript Kodu Bitiş -->
+<!-- CSS Kodu -->
+<style>
+    .product__modal-inner {
+        padding: 20px;
+    }
+
+    .product__modal-thumb {
+        text-align: center;
+    }
+
+        .product__modal-thumb img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    .product__modal-content {
+        padding: 20px;
+    }
+
+    .product__modal-cart-btn {
+        background-color: #000; /* Siyah renk */
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        /*transition: background-color 0.3s, color 0.3s;*/
+    }
+
+        .product__modal-cart-btn:hover {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+
+    .product__modal-buttons {
+        position: absolute;
+        top: 10px; /* "Close" butonunu hizalayın */
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product__modal-close, .product__modal-wishlist {
+        /*background-color: transparent;*/
+        border: none;
+        color: #000;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+
+    .product__modal-meta {
+        margin-top: 20px;
+    }
+
+        .product__modal-meta p {
+            margin: 0;
+            padding: 5px 0;
+        }
+
+    /* Base styling for the heart icon */
+    .icon-box .fa-heart {
+        color: red;
+        font-size: 16px; /* Adjust size as needed */
+        position: relative;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+        .icon-box .fa-heart::before {
+            content: "\f004"; /* Font Awesome heart icon code */
+            font-family: FontAwesome;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            -webkit-text-stroke: 1px red;
+            text-stroke: 1px red;
+        }
+
+    .red-heart .fa-heart::before {
+        color: red;
+        -webkit-text-stroke: 1px red;
+        text-stroke: 1px red;
+    }
+
+    .icon-box button {
+        border: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        position: relative;
+    }
+</style>

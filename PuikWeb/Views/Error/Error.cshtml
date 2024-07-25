@@ -1,0 +1,23 @@
+@{
+    Layout = "~/Views/Shared/_ErrorLayout.cshtml";
+    ViewBag.Title = "Error";
+    var statusCode = ViewBag.StatusCode;
+    var errorMessage = ViewBag.ErrorMessage;
+    var stackTrace = ViewBag.StackTrace;
+}
+
+<h2>An error occurred.</h2>
+<h1>Error</h1>
+<p>Status Code: @statusCode</p>
+<p>Message: @errorMessage</p>
+<p>Please try again.</p>
+<a href="@Url.Action("Index", "Home")">Home</a>
+
+
+@* @if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development") *@
+@* { *@
+@*     <details> *@
+@*         <summary>Stack Trace</summary> *@
+@*         <pre>@stackTrace</pre> *@
+@*     </details> *@
+@* } *@
